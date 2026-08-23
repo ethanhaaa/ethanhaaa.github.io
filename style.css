@@ -154,6 +154,15 @@ main {
     margin: 0 0 10px;
 }
 
+.project-card h3 a {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+.project-card h3 a:hover {
+    color: #999999;
+}
+
 .project-card p {
     margin: 0;
 }
