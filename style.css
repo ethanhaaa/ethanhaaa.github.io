@@ -170,6 +170,19 @@ main {
 .project-year {
     color: #777;
     font-size: 14px;
+    text-align: right;
+}
+
+.project-year a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #eeeeee;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.project-year a:hover {
+    color: #999999;
 }
 
 footer {
