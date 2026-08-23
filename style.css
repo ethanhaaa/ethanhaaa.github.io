@@ -127,18 +127,40 @@ main {
     color: #aaaaaa;
 }
 
-.project {
-    padding: 25px 0;
-    border-top: 1px solid #ddd;
+.project-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+    padding: 30px 0;
+
+    border-top: 1px solid #333;
 }
 
-.project h3 {
-    font-size: 22px;
+.project-info {
+    max-width: 550px;
+}
+
+.project-type {
+    font-size: 11px !important;
+    letter-spacing: 2px;
+    color: #777 !important;
+    margin-bottom: 10px;
+}
+
+.project-card h3 {
+    font-size: 24px;
     font-weight: 500;
+    margin: 0 0 10px;
 }
 
-.project p {
-    margin-top: 5px;
+.project-card p {
+    margin: 0;
+}
+
+.project-year {
+    color: #777;
+    font-size: 14px;
 }
 
 footer {
